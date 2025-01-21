@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    height: 2em;
+    background-color: yellow;
+    padding-top: 1em;
+    padding-left: 0.3em;
+}
