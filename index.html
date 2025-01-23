@@ -1,24 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 1</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>INICIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Genos:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Genos:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <nav>
-        <img src="./imgs/logo" alt="logo">
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+        <!-- Cambiado el logo a svg -->
+        <a href="index.html"><img src="./images/logo.svg" alt="logo" class="logo"></a>
+        <div class="paginas">
+            <!-- cambiadas las imagenes por iconos de fontasewome-->
+            <a href="estadisticas.html"><i class="fa-solid fa-chart-simple"></i>
+            <p>Esta disticas</p></a>
+            <a href="generos.html"><i class="fa-solid fa-filter"></i>
+            <p>Géneros</p></a>
+            <a href="blog.html"><i class="fa-solid fa-blog"></i>
+            <p>Blog</p></a>
+        </div>
+        <div class="login">
+            <a href="login.html"><img src="./images/login.png" alt="login">
+            <p>Login</p></a>
+        </div>
     </nav>
-
-    <div>
-        <canvas id="myChart"></canvas>
+    <div id="contenido-principal">
+        <div class="migadepan titulo">
+            <p>INICIO</p>
+        </div>
+        <header class="headerinicio">       
+                <p class="subtitulo">WIKIGAMES</p>
+        </header>
+        <section>
+            <div class="mejoresjuegos">
+                <h1 class="titulo">MEJORES JUEGOS DEL MOMENTO</h1>
+                <div class="mjuegos">
+                    <article class="juego1">
+                        <p class="subtitulo">Baldur's Gate III</p>
+                    </article>
+                    <article class="juego2">
+                        <p class="subtitulo">Elden Ring</p>
+                    </article>
+                    <article class="juego3">
+                        <p class="subtitulo">Hollow Knight</p>
+                    </article>
+                </div>
+            </div>
+            <div class="mejorcategoria">
+                <h1 class="titulo">MEJORES JUEGOS POR CATEGORÍA</h1>
+                <div class="mjuegoscat">
+                    <!-- Referenciadas todas las imagenes y cambiadas por imagenes de pxhere -->
+                    <figure>
+                        <article>
+                            <img src="./images/wow2.jpg" alt="wow">
+                            <p class="subtitulo">MMORPG</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>  
+                    <figure>
+                        <article>
+                            <img src="./images/phasmophobia2.jpg" alt="phasmo">
+                            <p class="subtitulo">TERROR</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <article>
+                            <img src="./images/darksouls2.jpg" alt="darksouls">
+                            <p class="subtitulo">SOULSLIKE</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <article>
+                            <img src="./images/isaac2.jpg" alt="isaac">
+                            <p class="subtitulo">ROGUELIKE</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <article>
+                            <img src="./images/mario2.jpg" alt="mario">
+                            <p class="subtitulo">PLATAFORMAS</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <article>
+                            <img src="./images/minecraft2.jpg" alt="minecraft">
+                            <p class="subtitulo">SANDBOX</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <article>
+                            <img src="./images/tarkov2.jpg" alt="tarkov">
+                            <p class="subtitulo">SHOOTER</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <article>
+                            <img src="./images/popcorn.jpg" alt="popcorn">
+                            <p class="subtitulo">BATTLE ROYALE</p>
+                        </article>
+                        <figcaption>
+                            Imagen bajo <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="subtitulo">WikiGames - 2024 ©</p>
+        </footer>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="./app.js"></script>
 </body>
 </html>

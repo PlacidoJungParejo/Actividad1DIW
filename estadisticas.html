@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Genos:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Genos:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="./images/logo.svg" alt="logo" class="logo"></a>
+        <div class="paginas">
+            <a href="estadisticas.html"><i class="fa-solid fa-chart-simple"></i>
+            <p>Esta disticas</p></a>
+            <a href="generos.html"><i class="fa-solid fa-filter"></i>
+            <p>Géneros</p></a>
+            <a href="blog.html"><i class="fa-solid fa-blog"></i>
+            <p>Blog</p></a>
+        </div>
+        <div class="login">
+            <a href="login.html"><img src="./images/login.png" alt="login">
+            <p>Login</p></a>
+        </div>
+    </nav>
+    <div id="contenido-principal">
+        <div class="migadepan titulo">
+            <p>INICIO</p>
+        </div>
+        <div id="chartjs">
+            <canvas id="myChart"></canvas>
+        </div>
+        <footer>
+            <p class="subtitulo">WikiGames - 2024 ©</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./app/app.js"></script>
+</body>
+</html>
