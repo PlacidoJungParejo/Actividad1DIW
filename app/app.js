@@ -30,10 +30,13 @@ function hacerGrafico() { //funcion para hacer el grafico
         data: ventas, //pasamos todas las ventas (con la variable)
         backgroundColor: function(valor){ //funcion para el color de fondo
           const value = valor.dataset.data[valor.dataIndex]; //sacamos el valor
-          return value < media ? '#581845' : '#FFC300';  //si el valor es menos que la media, devolvemos rojo, si no verde, y ese sera el color de la barra
+          return value < media ? '#581845' : '#FFC300';  //si el valor es menos que la media, devolvemos el primer color, si no el segundo
         },
         borderWidth: 4, //anchura de 4 px del borde
-        borderColor: "black" //color de borde negro
+        borderColor: function(valor){ //funcion para el color de fondo
+          const value = valor.dataset.data[valor.dataIndex]; //sacamos el valor
+          return value < media ? '#900C3F' : '#581845';  //si el valor es menos que la media, devolvemos el primer color, si no el segundo
+        } //color de borde negro
       }]
     },
     options: { //opciones
