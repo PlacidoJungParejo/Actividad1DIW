@@ -43,7 +43,7 @@ function hacerGrafico() { //funcion para hacer el grafico
     },
     options: {
       responsive: true, //esto hace que sea responsive
-      maintainAspectRatio: false, // mantiene la relacion de aspecto (asi no es muy pequeño)
+      maintainAspectRatio: false, // quita la relacion de aspecto (asi no es muy pequeño)
       plugins: {
         title: { //añade un titulo al vancas
           display: true, //hace que el titulo aparezca
