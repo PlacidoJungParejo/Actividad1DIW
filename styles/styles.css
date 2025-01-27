@@ -428,9 +428,22 @@ footer {
     font-size: 1.2rem;
 }
 
-/* Estilos para ajustar el canvas a la pagina */
-#chartjs{
-    margin-left: 2%; /* margen de izquierda de 2% de el total*/
+/* Estilos para ajustar el chart a la pagina */
+#chartjs {
+    width: 80%;
+    height: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 1rem;
 }
 
 @media (max-width: 768px) {
